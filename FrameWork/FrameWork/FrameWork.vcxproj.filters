@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\99. Etc">
+      <UniqueIdentifier>{c848e7da-667b-4fb1-8af9-0944da9c97d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\00. Include">
+      <UniqueIdentifier>{dd1a0767-c1cd-4e57-9ddd-3a8128154563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{d5fcc633-09fc-4afc-b7e0-204979840a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Singleton">
+      <UniqueIdentifier>{4daf12ff-b258-4f6c-8c6c-acdf08cfefd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\99. Etc\99. Main">
+      <UniqueIdentifier>{55c2d181-2d55-4599-aebf-4fab52aa7724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System">
+      <UniqueIdentifier>{dd892a8b-8dda-4461-951d-aaa2056eae5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System\01. Device">
+      <UniqueIdentifier>{fd06fa55-7bec-42c6-aae8-ec38ca720d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System\02. Time">
+      <UniqueIdentifier>{9dd748b5-c7cf-49d5-a4d0-89b173262fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System\03. Input">
+      <UniqueIdentifier>{93f5251a-f433-4516-8c31-4ebd7f6d32f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System\03. Input\01. Mouse">
+      <UniqueIdentifier>{c5bd8c4e-f390-43a0-906e-76a2f4e06863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. System\03. Input\02. KeyBoard">
+      <UniqueIdentifier>{02c58603-e4b4-45e1-a0ae-954107cd05ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Camera">
+      <UniqueIdentifier>{16340292-8a86-4dc6-a650-83a1b6513a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Action">
+      <UniqueIdentifier>{1e0d836e-a9b5-472b-8875-6b3526587c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Object">
+      <UniqueIdentifier>{5a17ffbd-8296-49a3-a30a-1b8296735024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Object\GameObject">
+      <UniqueIdentifier>{ddbda92a-f5e4-4a2e-8b56-2c91f57b899e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Mesh">
+      <UniqueIdentifier>{dc317cff-5142-43c3-b4e7-cb879c48b9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Mesh\Static">
+      <UniqueIdentifier>{4779684e-9315-4e0c-a22c-5e092b91582f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Mesh\Dynamic">
+      <UniqueIdentifier>{0893bd2f-e94a-418d-9a93-b34c4a13f25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07. Bounding">
+      <UniqueIdentifier>{c1d53473-e737-4057-95f9-4bf0b2cb0fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. Ray">
+      <UniqueIdentifier>{47411564-fc7a-4419-820e-084467979fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. Collision">
+      <UniqueIdentifier>{3fa4ccb2-0826-445d-a06e-221549c4cd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. Picking">
+      <UniqueIdentifier>{81d3f74b-1b7d-4845-91b3-a944f2a33eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. MtlTex">
+      <UniqueIdentifier>{b7c7b99a-a27c-4bb2-9fe8-c0a12e9a810d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11. Frustum">
+      <UniqueIdentifier>{d82b486e-009f-49f4-b254-0934452e3e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12. Map">
+      <UniqueIdentifier>{dc0b157e-1b81-4776-afa5-7b5f71b2bf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13. Item">
+      <UniqueIdentifier>{414ce401-2f0b-41ec-ab64-9f60f6c1f3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Object\GameObject\StaticObj">
+      <UniqueIdentifier>{f63c0215-2d88-47d0-b281-c289184d92b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Object\GameObject\DynamicObj">
+      <UniqueIdentifier>{e6d9e31a-717f-49b0-a9d3-4f09a4a29e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Object\GameObject\DynamicObj\Player">
+      <UniqueIdentifier>{87fbb949-0d08-4047-8f85-a38dd3f2d19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14. State">
+      <UniqueIdentifier>{de8f2487-aad5-4970-a759-c11d6d402940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\15. Animation">
+      <UniqueIdentifier>{0efa7219-87f5-4941-9425-490b36fe6aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Temp">
+      <UniqueIdentifier>{d9b65945-be6a-4aaa-8370-bc5debcc11dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\16. Monster">
+      <UniqueIdentifier>{37461460-00ee-4a88-90af-2fc05ff92393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\17. Shader">
+      <UniqueIdentifier>{b305cc7d-0dc0-4679-973d-c3e6dc1bf475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\18. Font">
+      <UniqueIdentifier>{6a5e12ea-3a18-4216-a5c1-73d2f8aaa515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameWork.h">
+      <Filter>헤더 파일\99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroFunc.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingleton.h">
+      <Filter>소스 파일\98. Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cDevice.h">
+      <Filter>소스 파일\01. System\01. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeMgr.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cInput.h">
+      <Filter>소스 파일\01. System\03. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeMgr.h">
+      <Filter>소스 파일\01. System\02. Time</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>소스 파일\01. System\02. Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyBoard.h">
+      <Filter>소스 파일\01. System\03. Input\02. KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="cMouse.h">
+      <Filter>소스 파일\01. System\03. Input\01. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="cAutoReleasePool.h">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectMgr.h">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>소스 파일\02. Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cAction.h">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionMove.h">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionRepeat.h">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionSeq.h">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>소스 파일\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>소스 파일\05. MtlTex</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>소스 파일\06. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshMgr.h">
+      <Filter>소스 파일\06. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cHierarchyLoader.h">
+      <Filter>소스 파일\06. Mesh\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticMesh.h">
+      <Filter>소스 파일\06. Mesh\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="cDynamicMesh.h">
+      <Filter>소스 파일\06. Mesh\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureMgr.h">
+      <Filter>소스 파일\05. MtlTex</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundingSphere.h">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundingBox.h">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="cRay.h">
+      <Filter>소스 파일\08. Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollision.h">
+      <Filter>소스 파일\09. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>소스 파일\11. Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon.h">
+      <Filter>소스 파일\13. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cDynamicObj.h">
+      <Filter>소스 파일\02. Object\GameObject\DynamicObj</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObj.h">
+      <Filter>소스 파일\02. Object\GameObject\StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>소스 파일\02. Object\GameObject\DynamicObj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateIdle.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateRun.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="iState.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateDefence.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cCube.h">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimationController.h">
+      <Filter>소스 파일\15. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="iAnimationDelegate.h">
+      <Filter>소스 파일\15. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cPyramid.h">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateWait.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateCombo.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>소스 파일\12. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonster.h">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateSkill.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cStateBossSkill.h">
+      <Filter>소스 파일\14. State</Filter>
+    </ClInclude>
+    <ClInclude Include="cBounding.h">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjMgr.h">
+      <Filter>소스 파일\02. Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionMoveToAttack.h">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cOrcaClone.h">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cOrca.h">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cFunction.h">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderMgr.h">
+      <Filter>소스 파일\17. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontMgr.h">
+      <Filter>소스 파일\18. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일\99. Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp">
+      <Filter>헤더 파일\99. Etc\99. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingleton.cpp">
+      <Filter>소스 파일\98. Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="cDevice.cpp">
+      <Filter>소스 파일\01. System\01. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="cInput.cpp">
+      <Filter>소스 파일\01. System\03. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>소스 파일\01. System\02. Time</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeMgr.cpp">
+      <Filter>소스 파일\01. System\02. Time</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyBoard.cpp">
+      <Filter>소스 파일\01. System\03. Input\02. KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="cMouse.cpp">
+      <Filter>소스 파일\01. System\03. Input\01. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="cAutoReleasePool.cpp">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectMgr.cpp">
+      <Filter>소스 파일\02. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>소스 파일\02. Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cAction.cpp">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionMove.cpp">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionRepeat.cpp">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionSeq.cpp">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>소스 파일\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>소스 파일\05. MtlTex</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>소스 파일\06. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshMgr.cpp">
+      <Filter>소스 파일\06. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cHierarchyLoader.cpp">
+      <Filter>소스 파일\06. Mesh\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticMesh.cpp">
+      <Filter>소스 파일\06. Mesh\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="cDynamicMesh.cpp">
+      <Filter>소스 파일\06. Mesh\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureMgr.cpp">
+      <Filter>소스 파일\05. MtlTex</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundingSphere.cpp">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundingBox.cpp">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="cRay.cpp">
+      <Filter>소스 파일\08. Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollision.cpp">
+      <Filter>소스 파일\09. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>소스 파일\11. Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon.cpp">
+      <Filter>소스 파일\13. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cDynamicObj.cpp">
+      <Filter>소스 파일\02. Object\GameObject\DynamicObj</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObj.cpp">
+      <Filter>소스 파일\02. Object\GameObject\StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>소스 파일\02. Object\GameObject\DynamicObj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateIdle.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateRun.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="iState.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateDefence.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cCube.cpp">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimationController.cpp">
+      <Filter>소스 파일\15. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="iAnimationDelegate.cpp">
+      <Filter>소스 파일\15. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="cPyramid.cpp">
+      <Filter>소스 파일\99. Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateWait.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateCombo.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>소스 파일\12. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonster.cpp">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateSkill.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cStateBossSkill.cpp">
+      <Filter>소스 파일\14. State</Filter>
+    </ClCompile>
+    <ClCompile Include="cBounding.cpp">
+      <Filter>소스 파일\07. Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjMgr.cpp">
+      <Filter>소스 파일\02. Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionMoveToAttack.cpp">
+      <Filter>소스 파일\03. Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cOrcaClone.cpp">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cOrca.cpp">
+      <Filter>소스 파일\16. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cFunction.cpp">
+      <Filter>헤더 파일\00. Include</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderMgr.cpp">
+      <Filter>소스 파일\17. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontMgr.cpp">
+      <Filter>소스 파일\18. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FrameWork.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>헤더 파일\99. Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
